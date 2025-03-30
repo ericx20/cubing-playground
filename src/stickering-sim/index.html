@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stickering Sim</title>
+    <script src="./script.js" type="module"></script>
+  </head>
+  <body>
+    <h1>Stickering sim</h1>
+    <p>Tool for designing and testing custom stickering schemes</p>
+    <ol>
+      <li>
+        Download this
+        <a href="./template.png" download="template.png">sticker template</a>
+        and edit with an image editor. Alternatively, use the
+        <a href="./template.svg" download="template.svg">vector version</a>
+      </li>
+      <li>
+        Upload the edited template here (.png or .jpg):
+        <input
+          type="file"
+          id="image_uploads"
+          name="image_uploads"
+          accept=".jpg, .jpeg, .png, .svg"
+        />
+      </li>
+      <li>
+        View the stickering below, and try scrambling and solving using the
+        keyboard
+      </li>
+    </ol>
+    <div id="twisty-wrapper"></div>
+    <button type="button" id="scramble">scramble</button>
+    <button type="button" id="reset">reset</button>
+  </body>
+</html>
