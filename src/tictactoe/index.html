@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stickering Sim</title>
+    <script src="../tictactoe.js" type="module"></script>
+  </head>
+  <body>
+    <h1>tictactoe</h1>
+    <p>2-player game</p>
+    <twisty-player
+      id="main-player"
+      control-panel="none"
+      experimental-stickering="picture"
+      experimental-sprite="./tictactoe.png"
+      back-view="side-by-side"
+      experimental-drag-input="none"
+    ></twisty-player>
+    <button type="button" id="scramble">scramble</button>
+    <button type="button" id="reset">reset</button>
+  </body>
+</html>
